@@ -21,7 +21,7 @@ Landsat-util is a command line utility that makes it easy to search, download, a
 Note
 ++++
 
-This version is slightly modified by Skyai.
+This version is slightly modified by Skyai. Use the skyai branch to benefit from those modifications
 The modifications:
 
 * Allow to fix existing bugs in a controlled and reproduceable way
