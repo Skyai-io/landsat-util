@@ -60,3 +60,11 @@ Change Log
 ++++++++++
 
 See `CHANGES.txt <CHANGES.txt>`_.
+
+Examples
+++++++++
+
+Commands relevant for Skyai
+
+    $ python main.py search -p 198,024 --latest 2
+    $ python main.py download LC81980242018127LGN00 LC81980242018111LGN00
