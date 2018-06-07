@@ -18,6 +18,15 @@ Landsat-util
 
 Landsat-util is a command line utility that makes it easy to search, download, and process Landsat imagery.
 
+Note
+++++
+
+This version is slightly modified by Skyai.
+The modifications:
+
+* Allow to fix existing bugs in a controlled and reproduceable way
+* Use a conda environment instead of pip
+
 Docs
 +++++
 
@@ -28,6 +37,15 @@ To run the documentation locally::
     $ pip install -r requirements/dev.txt
     $ cd docs
     $ make html
+
+Running
++++++++
+
+To run the software, first setup the environment and then use main.py like you would use landsat
+
+    $ conda env create --file environment.yml
+    $ source activate landsat-util-skyai
+    $ python main.py -h
 
 
 Recently Added Features
